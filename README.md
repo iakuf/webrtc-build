@@ -1,34 +1,23 @@
 # webrtc-build
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/shiguredo-webrtc-build/webrtc-build.svg)](https://github.com/shiguredo-webrtc-build/webrtc-build)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/shiguredo-webrtc-build/webrtc-build.svg)](https://github.com/iakuf/webrtc-build)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Actions Status](https://github.com/shiguredo-webrtc-build/webrtc-build/workflows/build/badge.svg)](https://github.com/shiguredo-webrtc-build/webrtc-build/actions)
+[![Actions Status](https://github.com/shiguredo-webrtc-build/webrtc-build/workflows/build/badge.svg)](https://github.com/iakuf/webrtc-build/actions)
 
-## About Shiguredo's open source software
 
-We will not respond to PRs or issues that have not been discussed on Discord. Also, Discord is only available in Japanese.
+## 有关 webrtc-build 
 
-Please read https://github.com/shiguredo/oss/blob/master/README.en.md before use.
+提供编译各个平台环境的 WebRTC 的脚本, 本项目来自于 [shiguredo-webrtc-build](https://github.com/shiguredo-webrtc-build/webrtc-build)
+因为原平台不能 fork 无法提交问题和无法修改, 所以建立的本项目.
 
-## 時雨堂のオープンソースソフトウェアについて
 
-利用前に https://github.com/shiguredo/oss をお読みください。
+## 编译打包的文件包含 
 
-## webrtc-build について
+- WebRTC 库（webrtc.lib 或 libwebrtc.a）
+- WebRTC 包含头文件
+- WebRTC 版本信息（提交哈希）
 
-様々な環境向けの WebRTC のビルドを行って、そのバイナリを提供しています。
-
-## ダウンロード
-
-[リリース](https://github.com/melpon/webrtc-build/releases) からダウンロードしてください。
-
-## パッケージに入っている内容
-
-- WebRTC ライブラリ(webrtc.lib あるいは libwebrtc.a)
-- WebRTC のインクルードヘッダ
-- WebRTC のバージョン情報(コミットハッシュ)
-
-## 現在提供しているビルド
+## 目前支持的平台 
 
 - windows x86_64
 - macos_arm64
@@ -52,6 +41,7 @@ Apache License 2.0
 ```
 Copyright 2019-2021, Wandbox LLC (Original Author)
 Copyright 2019-2021, Shiguredo Inc.
+Copyright 2021-2022, 扶凯 
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -64,22 +54,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-```
-
-### Contributing
-
-- melpon - *Original Author*
-    - Android サポート
-    - iOS サポート
-    - CentOS 8 サポート
-- tnoho - *Original Author*
-    - macOS 向け AV1 サポート
-    - macOS 向け H.265 サポート
-- hakobera
-    - Ubuntu 20.04 x86_64 サポート
-    - macOS 11 arm64 サポート
-- enm10k
-    - iOS 向けデバッグビルド追加
-- soudegesu
-    - macOS 向け ObjC ヘッダー追加
 # webrtc-build
