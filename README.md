@@ -1,11 +1,11 @@
-# webrtc-build
+# WebRTC-Build
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/shiguredo-webrtc-build/webrtc-build.svg)](https://github.com/iakuf/webrtc-build)
+[![github tag (latest semver)](https://img.shields.io/github/tag/iakuf/webrtc-build.svg)](https://github.com/iakuf/webrtc-build)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Actions Status](https://github.com/shiguredo-webrtc-build/webrtc-build/workflows/build/badge.svg)](https://github.com/iakuf/webrtc-build/actions)
 
 
-## 有关 webrtc-build 
+## 有关 WebRTC-Build 
 
 提供编译各个平台环境的 WebRTC 的脚本, 本项目来自于 [shiguredo-webrtc-build](https://github.com/shiguredo-webrtc-build/webrtc-build)
 因为原平台不能 fork 无法提交问题和无法修改, 所以建立的本项目.
@@ -58,4 +58,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-# webrtc-build
+
+# WebRTC-Build
