@@ -10,9 +10,9 @@
 提供编译各个平台环境的 WebRTC 的脚本, 本项目来自于 [shiguredo-webrtc-build](https://github.com/shiguredo-webrtc-build/webrtc-build)
 因为原平台不能 fork 无法提交问题和无法修改, 所以建立的本项目.
 
-本项目修复了 mac m1 在 arm64 平台上的编译.
-gclient 增加了多线程, 用于加快同步.
-增加了非 docker 的 ubuntu 环境编译的支持.
+- 本项目修复了 mac m1 在 arm64 平台上的编译.
+- gclient 增加了多线程, 用于加快同步.
+- 增加了非 docker 的 ubuntu 环境编译的支持.
 
 
 ## 编译打包的文件包含 
